@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 from cipher.caesar import CaesarCipher  
 from cipher.vigenere import VigenereCipher 
 app = Flask(__name__)
+from flask import Flask, request, jsonify
+from cipher.caesar import CaesarCipher  
+app = Flask(__name__)
 
 caesar_cipher = CaesarCipher()
 
